@@ -8,8 +8,8 @@ Mean Absolute Error( 2.34**2 * RationalQuadratic(alpha=0.5, length_scale=0.679) 
 Mean Squared Error( 2.34**2 * RationalQuadratic(alpha=0.5, length_scale=0.679) ): 3.3058267737969245
 Root Mean Squared Error( 2.34**2 * RationalQuadratic(alpha=0.5, length_scale=0.679) ): 1.818193271848987
 Mean Absolute Error( 0.00316**2 * RBF(length_scale=1[4;33mReloaded modules[24m: bland_altman_plot[0m
-2578169668731
-Mean Squared Error( 0.00316**2 * RBF(length_scale=1) + 6.42**2 * Matern(length_scale=2, nu=2.5) ): 5.578950088981347
+[4;33mReloaded modules[24m: bland_altman_plot[0m
+ength_scale=1) + 6.42**2 * Matern(length_scale=2, nu=2.5) ): 5.578950088981347
 Root Mean Squared Error( 0.00316**2 * RBF(length_scale=1) + 6.42**2 * Matern(length_scale=2, nu=2.5) ): 2.3619801203611654
 Mean Absolute Error( 2.34**2 * RationalQuadratic(alpha=0.5, length_scale=0.679) + 0.00316**2 * Matern(length_scale=2, nu=2.5) ): 1.275910343122875
 Mean Squared Error( 2.34**2 * RationalQuadratic(alpha=0.5, length_scale=0.679) + 0.00316**2 * Matern(length_scale=2, nu=2.5) ): 3.3058267648276702
