@@ -1,3 +1,6 @@
 processed_data2.pkl
 Twin_data_no_outliner.pkl
 *.png
+*.pkl
+*.txt
+*.pdf
