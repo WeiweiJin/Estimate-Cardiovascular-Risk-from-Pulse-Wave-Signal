@@ -170,5 +170,5 @@ sys.stdout = orig_stdout
 f.close()
 
 # save y_test and y_pred
-df_savedata = pd.Dataframe(savedata)
+df_savedata = pd.DataFrame(savedata)
 df_savedata.to_pickle('y_test_pred_GPR.pkl')
