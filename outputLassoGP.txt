@@ -1,0 +1,21 @@
+Mean Absolute Error( 5.63**2 * RBF(length_scale=1) ): 2.79645003733244
+Mean Squared Error( 5.63**2 * RBF(length_scale=1) ): 15.949750334944351
+Root Mean Squared Error( 5.63**2 * RBF(length_scale=1) ): 3.993713852411606
+Mean Absolute Error( 6.42**2 * Matern(length_scale=2, nu=2.5) ): 1.6525781184189585
+Mean Squared Error( 6.42**2 * Matern(length_scale=2, nu=2.5) ): 5.5789496898668425
+Root Mean Squared Error( 6.42**2 * Matern(length_scale=2, nu=2.5) ): 2.361980035873894
+Mean Absolute Error( 2.34**2 * RationalQuadratic(alpha=0.5, length_scale=0.679) ): 1.275910542166342
+Mean Squared Error( 2.34**2 * RationalQuadratic(alpha=0.5, length_scale=0.679) ): 3.3058267737969245
+Root Mean Squared Error( 2.34**2 * RationalQuadratic(alpha=0.5, length_scale=0.679) ): 1.818193271848987
+Mean Absolute Error( 0.00316**2 * RBF(length_scale=1) + 6.42**2 * Matern(length_scale=2, nu=2.5) ): 1.652578169668731
+Mean Squared Error( 0.00316**2 * RBF(length_scale=1) + 6.42**2 * Matern(length_scale=2, nu=2.5) ): 5.578950088981347
+Root Mean Squared Error( 0.00316**2 * RBF(length_scale=1) + 6.42**2 * Matern(length_scale=2, nu=2.5) ): 2.3619801203611654
+Mean Absolute Error( 2.34**2 * RationalQuadratic(alpha=0.5, length_scale=0.679) + 0.00316**2 * Matern(length_scale=2, nu=2.5) ): 1.275910343122875
+Mean Squared Error( 2.34**2 * RationalQuadratic(alpha=0.5, length_scale=0.679) + 0.00316**2 * Matern(length_scale=2, nu=2.5) ): 3.3058267648276702
+Root Mean Squared Error( 2.34**2 * RationalQuadratic(alpha=0.5, length_scale=0.679) + 0.00316**2 * Matern(length_scale=2, nu=2.5) ): 1.8181932693824576
+Mean Absolute Error( 2.34**2 * RationalQuadratic(alpha=0.5, length_scale=0.679) + 0.00316**2 * RBF(length_scale=1) ): 1.2759103696539509
+Mean Squared Error( 2.34**2 * RationalQuadratic(alpha=0.5, length_scale=0.679) + 0.00316**2 * RBF(length_scale=1) ): 3.3058273205322726
+Root Mean Squared Error( 2.34**2 * RationalQuadratic(alpha=0.5, length_scale=0.679) + 0.00316**2 * RBF(length_scale=1) ): 1.8181934222002545
+Mean Absolute Error( 2.34**2 * RationalQuadratic(alpha=0.5, length_scale=0.679) + 0.00316**2 * RBF(length_scale=1) + 0.00316**2 * Matern(length_scale=2, nu=2.5) ): 1.2759109652114415
+Mean Squared Error( 2.34**2 * RationalQuadratic(alpha=0.5, length_scale=0.679) + 0.00316**2 * RBF(length_scale=1) + 0.00316**2 * Matern(length_scale=2, nu=2.5) ): 3.3058281192494516
+Root Mean Squared Error( 2.34**2 * RationalQuadratic(alpha=0.5, length_scale=0.679) + 0.00316**2 * RBF(length_scale=1) + 0.00316**2 * Matern(length_scale=2, nu=2.5) ): 1.8181936418460636
