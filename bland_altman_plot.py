@@ -89,11 +89,11 @@ def bland_altman_plot(m1, m2,
     ax.axhline(mean_diff, **mean_line_kwds)  # draw mean line.
 
     # Annotate mean line with mean difference.
-    ax.annotate('mean diff:\n{}'.format(np.round(mean_diff, 2)),
+    ax.annotate('mean diff:\n{:.2}'.format(np.round(mean_diff, 2)),
                 xy=(0.99, 0.5),
                 horizontalalignment='right',
                 verticalalignment='center',
-                fontsize=14,
+                fontsize=18,
                 xycoords='axes fraction')
 
     if sd_limit > 0:
@@ -110,12 +110,12 @@ def bland_altman_plot(m1, m2,
                     xy=(0.99, 0.07),
                     horizontalalignment='right',
                     verticalalignment='bottom',
-                    fontsize=14,
+                    fontsize=18,
                     xycoords='axes fraction')
         ax.annotate('+SD{}: {}'.format(sd_limit, np.round(upper, 2)),
                     xy=(0.99, 0.92),
                     horizontalalignment='right',
-                    fontsize=14,
+                    fontsize=18,
                     xycoords='axes fraction')
 
     elif sd_limit == 0:
@@ -125,6 +125,6 @@ def bland_altman_plot(m1, m2,
 
     # ax.set_ylabel('Difference', fontsize=15)
     # ax.set_xlabel('Actual Value', fontsize=15)
-    ax.tick_params(labelsize=16)
+    ax.tick_params(labelsize=20)
     plt.tight_layout()
     return ax
