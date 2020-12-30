@@ -1,5 +1,7 @@
 These are the Python code I used in the project to estimate pulse wave velocity, a risk factor of cardiovascular disease, using radial pressure wave, a peripheral pulse wave signal. These tools can be modified and applied to estimate other risk factors for diseases or any other subject of interests using pulse wave signals. 
 
+The article that associated to these code is currently preprinted on medRxiv: doi: https://doi.org/10.1101/2020.11.29.20239962.
+
 LassoCV.py and identifyOutlinerwithPCA.py are the code used for data pre-processing. 
 
 GPR.py is the code for conducting Gaussian process regression, which different covariance functions and their combinations have been tested.
